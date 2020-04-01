@@ -1,0 +1,22 @@
+{
+  "name": "AZRoter",
+  "version": "0.1.0",
+  "summary": "简单的路由组件",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.nehza.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZhenXu": "azhen@nehza.com"
+  },
+  "source": {
+    "git": "git@github.com:AZName/AZRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AZRoter/Classes/**/*"
+}

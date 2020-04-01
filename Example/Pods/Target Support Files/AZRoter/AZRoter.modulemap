@@ -1,0 +1,6 @@
+framework module AZRoter {
+  umbrella header "AZRoter-umbrella.h"
+
+  export *
+  module * { export * }
+}

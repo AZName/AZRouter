@@ -22,7 +22,7 @@ pod 'AZRoter'
 
 ## Author
 
-964190389@qq.com, 964190389@qq.com
+ZhenXu, azhen@nehza.com
 
 ## License
 

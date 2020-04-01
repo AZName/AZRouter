@@ -1,0 +1,6 @@
+framework module Pods_AZRoter_Example {
+  umbrella header "Pods-AZRoter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

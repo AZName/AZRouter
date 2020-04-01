@@ -1,0 +1,16 @@
+PODS:
+  - AZRoter (0.1.0)
+
+DEPENDENCIES:
+  - AZRoter (from `../`)
+
+EXTERNAL SOURCES:
+  AZRoter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AZRoter: 8fd50b20023b368514e4869a33d6932b9f09eecb
+
+PODFILE CHECKSUM: dc9a68e9cb24a728ff8c25a58567aeffacf4fc33
+
+COCOAPODS: 1.9.1

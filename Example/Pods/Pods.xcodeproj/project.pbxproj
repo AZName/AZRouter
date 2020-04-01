@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E0B787F120758FCB266F8572EF22AE /* Pods-AZRoter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8973AA038FC8C5FEB63FF0AE22E3EBA0 /* Pods-AZRoter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB4A44E48F8AE39F2ED088E9CF673CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		293553D6EC0F6EDB6ABC207373CF9A7E /* UIApplication+AZRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A7CB09856C75A54B3A2A7FC6371195 /* UIApplication+AZRouter.m */; };
+		38D055E8C9A49A7EC03417728B6B6F4C /* AZRoter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC9E794FD909AB62730BAFE20EC9A0B /* AZRoter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DFD890A3818E2382D56677C267EB70B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		845ABEB44FCEC8275B8E058D0ECA3976 /* UIViewController+AZRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA98113553A4833A7797B733669455B /* UIViewController+AZRouter.m */; };
+		975DB09E15D14145F4992ABD08EC050A /* UIViewController+AZRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 600DB1CDF57C6C74938D1EDAEF85F5C2 /* UIViewController+AZRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A32624D1B945E92D24CAED37BA07648A /* Pods-AZRoter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910EC1B70EA6B0931E5BF14F22F1846B /* Pods-AZRoter_Example-dummy.m */; };
+		C9E472F576B17779CB84640C2A5DB7AF /* Pods-AZRoter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4030EF9CB68EBE22FD166EBD775769AD /* Pods-AZRoter_Tests-dummy.m */; };
+		CD22C3B366F5B660B4C32784D7E8C3B4 /* AZRoter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82CEDF93FC54CFF5BB30A8999F0D59 /* AZRoter-dummy.m */; };
+		DCADE6B2BE9E236B2F918736AD49659B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E33C4E7A6ADF7F8648BC1CA4866ED6EA /* Pods-AZRoter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3B9F1F12CEB3AEBCAF6935782E4C4A /* Pods-AZRoter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55D917D7975CA0B49DFF8320B3448B6 /* UIApplication+AZRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF3E46301FEBADF8BD76A8169206858 /* UIApplication+AZRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05DAEB56D05E77890B040F0E3751F18B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90DB99408C45EC8A8389CACF02964F0;
+			remoteInfo = AZRoter;
+		};
+		29B5AB6FBCE4D34DD6B21A71C850094E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFE12198CD39FD1A28CAF9C9D61A6E6;
+			remoteInfo = "Pods-AZRoter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045A134A78ECD397621DA066BF5A4D01 /* Pods-AZRoter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZRoter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1BA69C1320D2FDB70EC11B3EE9C73286 /* Pods-AZRoter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZRoter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1E3B9F1F12CEB3AEBCAF6935782E4C4A /* Pods-AZRoter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZRoter_Example-umbrella.h"; sourceTree = "<group>"; };
+		1FAC4039D4276741262275BDA42A6A2D /* Pods-AZRoter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZRoter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D91DD0643884799CE92CC16948033DB /* AZRoter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AZRoter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30E1A275A65E2ED6E6B23A17B21081A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		391B45015580DE1F860D08DEB9BAC700 /* AZRoter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZRoter.debug.xcconfig; sourceTree = "<group>"; };
+		3F95F55D00A065CCDB859A9170876C06 /* Pods_AZRoter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZRoter_Tests.framework; path = "Pods-AZRoter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4030EF9CB68EBE22FD166EBD775769AD /* Pods-AZRoter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZRoter_Tests-dummy.m"; sourceTree = "<group>"; };
+		464EA85796F47F7002396DB503928422 /* Pods-AZRoter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZRoter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		469C6211B6F99DE8C52A53EA908BACFC /* Pods-AZRoter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZRoter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F82CEDF93FC54CFF5BB30A8999F0D59 /* AZRoter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZRoter-dummy.m"; sourceTree = "<group>"; };
+		5A4372BB67AB259131AF78E809EC5D28 /* AZRoter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZRoter-prefix.pch"; sourceTree = "<group>"; };
+		5FECE84AF096B4567544D6FCFAC0A950 /* Pods_AZRoter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZRoter_Example.framework; path = "Pods-AZRoter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		600DB1CDF57C6C74938D1EDAEF85F5C2 /* UIViewController+AZRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AZRouter.h"; path = "AZRoter/Classes/UIViewController+AZRouter.h"; sourceTree = "<group>"; };
+		64A7CB09856C75A54B3A2A7FC6371195 /* UIApplication+AZRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+AZRouter.m"; path = "AZRoter/Classes/UIApplication+AZRouter.m"; sourceTree = "<group>"; };
+		6E3E709C12CDDEC06520757C959F796B /* AZRoter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AZRoter.modulemap; sourceTree = "<group>"; };
+		751B8807F7C1B3BC22BA1619A14AE06C /* Pods-AZRoter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZRoter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C6BD4B849C10DF567FEEE87D1CE497D /* Pods-AZRoter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZRoter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		82E872A852141136510B696B0D8E8828 /* Pods-AZRoter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AZRoter_Example.modulemap"; sourceTree = "<group>"; };
+		8973AA038FC8C5FEB63FF0AE22E3EBA0 /* Pods-AZRoter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZRoter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8FA98113553A4833A7797B733669455B /* UIViewController+AZRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AZRouter.m"; path = "AZRoter/Classes/UIViewController+AZRouter.m"; sourceTree = "<group>"; };
+		910EC1B70EA6B0931E5BF14F22F1846B /* Pods-AZRoter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZRoter_Example-dummy.m"; sourceTree = "<group>"; };
+		98E0D6E3780CF0B1309D13E0961BDF21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0F4421C4FB5B103AFD3BA0CF8110267 /* Pods-AZRoter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZRoter_Example-Info.plist"; sourceTree = "<group>"; };
+		B513434274AF19CB9B105F6F795F92A7 /* AZRoter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AZRoter-Info.plist"; sourceTree = "<group>"; };
+		B918E886759450949EAB0F7400FB033A /* Pods-AZRoter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AZRoter_Tests.modulemap"; sourceTree = "<group>"; };
+		CCF3E46301FEBADF8BD76A8169206858 /* UIApplication+AZRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+AZRouter.h"; path = "AZRoter/Classes/UIApplication+AZRouter.h"; sourceTree = "<group>"; };
+		CDC9E794FD909AB62730BAFE20EC9A0B /* AZRoter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZRoter-umbrella.h"; sourceTree = "<group>"; };
+		D25583E7F285762676892BE4E0F5BA74 /* Pods-AZRoter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZRoter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E49FB1B110159361DD25FD2287857C3A /* Pods-AZRoter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZRoter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9959C584406A6B9DA0198652553B749 /* AZRoter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZRoter.framework; path = AZRoter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD426744FB27DC53E31302FCE4C11879 /* Pods-AZRoter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZRoter_Tests-Info.plist"; sourceTree = "<group>"; };
+		FDBA775551714AA7F5972EF57C181022 /* AZRoter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZRoter.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9425A9836FE5920DC4D2A5D15F67ED66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD890A3818E2382D56677C267EB70B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28877404B38E9D1EB4835A0E625ECA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCADE6B2BE9E236B2F918736AD49659B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73EECAB83862F9298AD6A3D3A4273FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB4A44E48F8AE39F2ED088E9CF673CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B752633390634D11F25104AABF7C68 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2D91DD0643884799CE92CC16948033DB /* AZRoter.podspec */,
+				98E0D6E3780CF0B1309D13E0961BDF21 /* LICENSE */,
+				30E1A275A65E2ED6E6B23A17B21081A6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		47F3DC0E3A1076FDDFDD03E479ED4871 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E3E709C12CDDEC06520757C959F796B /* AZRoter.modulemap */,
+				4F82CEDF93FC54CFF5BB30A8999F0D59 /* AZRoter-dummy.m */,
+				B513434274AF19CB9B105F6F795F92A7 /* AZRoter-Info.plist */,
+				5A4372BB67AB259131AF78E809EC5D28 /* AZRoter-prefix.pch */,
+				CDC9E794FD909AB62730BAFE20EC9A0B /* AZRoter-umbrella.h */,
+				391B45015580DE1F860D08DEB9BAC700 /* AZRoter.debug.xcconfig */,
+				FDBA775551714AA7F5972EF57C181022 /* AZRoter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AZRoter";
+			sourceTree = "<group>";
+		};
+		57C33AC7BEB8F5261BF310C2962574C2 /* Pods-AZRoter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				82E872A852141136510B696B0D8E8828 /* Pods-AZRoter_Example.modulemap */,
+				D25583E7F285762676892BE4E0F5BA74 /* Pods-AZRoter_Example-acknowledgements.markdown */,
+				464EA85796F47F7002396DB503928422 /* Pods-AZRoter_Example-acknowledgements.plist */,
+				910EC1B70EA6B0931E5BF14F22F1846B /* Pods-AZRoter_Example-dummy.m */,
+				1BA69C1320D2FDB70EC11B3EE9C73286 /* Pods-AZRoter_Example-frameworks.sh */,
+				B0F4421C4FB5B103AFD3BA0CF8110267 /* Pods-AZRoter_Example-Info.plist */,
+				1E3B9F1F12CEB3AEBCAF6935782E4C4A /* Pods-AZRoter_Example-umbrella.h */,
+				1FAC4039D4276741262275BDA42A6A2D /* Pods-AZRoter_Example.debug.xcconfig */,
+				469C6211B6F99DE8C52A53EA908BACFC /* Pods-AZRoter_Example.release.xcconfig */,
+			);
+			name = "Pods-AZRoter_Example";
+			path = "Target Support Files/Pods-AZRoter_Example";
+			sourceTree = "<group>";
+		};
+		7203C1461E9ECBBDDB1AC2E0CA0724DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C33AC7BEB8F5261BF310C2962574C2 /* Pods-AZRoter_Example */,
+				CE60413D63EBB677AE7934C94CB08DEB /* Pods-AZRoter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7641AF310BF4953693017E8EE60EA48B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9959C584406A6B9DA0198652553B749 /* AZRoter.framework */,
+				5FECE84AF096B4567544D6FCFAC0A950 /* Pods_AZRoter_Example.framework */,
+				3F95F55D00A065CCDB859A9170876C06 /* Pods_AZRoter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1636EE695D4DC2E287AC3526D2A486 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F206376335B92B3FC5DB92EBEE3AA4B9 /* AZRoter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE60413D63EBB677AE7934C94CB08DEB /* Pods-AZRoter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B918E886759450949EAB0F7400FB033A /* Pods-AZRoter_Tests.modulemap */,
+				751B8807F7C1B3BC22BA1619A14AE06C /* Pods-AZRoter_Tests-acknowledgements.markdown */,
+				E49FB1B110159361DD25FD2287857C3A /* Pods-AZRoter_Tests-acknowledgements.plist */,
+				4030EF9CB68EBE22FD166EBD775769AD /* Pods-AZRoter_Tests-dummy.m */,
+				FD426744FB27DC53E31302FCE4C11879 /* Pods-AZRoter_Tests-Info.plist */,
+				8973AA038FC8C5FEB63FF0AE22E3EBA0 /* Pods-AZRoter_Tests-umbrella.h */,
+				7C6BD4B849C10DF567FEEE87D1CE497D /* Pods-AZRoter_Tests.debug.xcconfig */,
+				045A134A78ECD397621DA066BF5A4D01 /* Pods-AZRoter_Tests.release.xcconfig */,
+			);
+			name = "Pods-AZRoter_Tests";
+			path = "Target Support Files/Pods-AZRoter_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AA1636EE695D4DC2E287AC3526D2A486 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7641AF310BF4953693017E8EE60EA48B /* Products */,
+				7203C1461E9ECBBDDB1AC2E0CA0724DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F206376335B92B3FC5DB92EBEE3AA4B9 /* AZRoter */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3E46301FEBADF8BD76A8169206858 /* UIApplication+AZRouter.h */,
+				64A7CB09856C75A54B3A2A7FC6371195 /* UIApplication+AZRouter.m */,
+				600DB1CDF57C6C74938D1EDAEF85F5C2 /* UIViewController+AZRouter.h */,
+				8FA98113553A4833A7797B733669455B /* UIViewController+AZRouter.m */,
+				21B752633390634D11F25104AABF7C68 /* Pod */,
+				47F3DC0E3A1076FDDFDD03E479ED4871 /* Support Files */,
+			);
+			name = AZRoter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59D21A5CA63543BD423B5B4624B1FE53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E0B787F120758FCB266F8572EF22AE /* Pods-AZRoter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F14369974553E801B30658869133460 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33C4E7A6ADF7F8648BC1CA4866ED6EA /* Pods-AZRoter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BAF9D765CE35140B8E928CBA5D1046 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D055E8C9A49A7EC03417728B6B6F4C /* AZRoter-umbrella.h in Headers */,
+				E55D917D7975CA0B49DFF8320B3448B6 /* UIApplication+AZRouter.h in Headers */,
+				975DB09E15D14145F4992ABD08EC050A /* UIViewController+AZRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EFE12198CD39FD1A28CAF9C9D61A6E6 /* Pods-AZRoter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6C4F9A9BFCED52AE93E93B9F0DF9A7 /* Build configuration list for PBXNativeTarget "Pods-AZRoter_Example" */;
+			buildPhases = (
+				5F14369974553E801B30658869133460 /* Headers */,
+				A5FE5CFF3F4FE1C207277297AD1AEAE9 /* Sources */,
+				9425A9836FE5920DC4D2A5D15F67ED66 /* Frameworks */,
+				628D2E0881DC1DFA5651642A65B438AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43B00BDE8AE4BA78AD5D213B5B5A095B /* PBXTargetDependency */,
+			);
+			name = "Pods-AZRoter_Example";
+			productName = "Pods-AZRoter_Example";
+			productReference = 5FECE84AF096B4567544D6FCFAC0A950 /* Pods_AZRoter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47F3F4041D7DEDC1EE68CBC60CB635A2 /* Pods-AZRoter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FCF475A80978E7E4609A3E45A9B72C /* Build configuration list for PBXNativeTarget "Pods-AZRoter_Tests" */;
+			buildPhases = (
+				59D21A5CA63543BD423B5B4624B1FE53 /* Headers */,
+				F8AEE02A8112A7A7175EC72AF8E20274 /* Sources */,
+				B73EECAB83862F9298AD6A3D3A4273FA /* Frameworks */,
+				E219E4C14EE6D640EA2EF4737FC60C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952E7529A820A1E51B60AC61B985A48E /* PBXTargetDependency */,
+			);
+			name = "Pods-AZRoter_Tests";
+			productName = "Pods-AZRoter_Tests";
+			productReference = 3F95F55D00A065CCDB859A9170876C06 /* Pods_AZRoter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B90DB99408C45EC8A8389CACF02964F0 /* AZRoter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB386116E83C998A3E3FF8A16A151EDB /* Build configuration list for PBXNativeTarget "AZRoter" */;
+			buildPhases = (
+				96BAF9D765CE35140B8E928CBA5D1046 /* Headers */,
+				846F97F69623F69A6E97DA4BA8697FFB /* Sources */,
+				A28877404B38E9D1EB4835A0E625ECA0 /* Frameworks */,
+				61C9164C1BA6530BD3550B2AE5B29280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZRoter;
+			productName = AZRoter;
+			productReference = E9959C584406A6B9DA0198652553B749 /* AZRoter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7641AF310BF4953693017E8EE60EA48B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90DB99408C45EC8A8389CACF02964F0 /* AZRoter */,
+				2EFE12198CD39FD1A28CAF9C9D61A6E6 /* Pods-AZRoter_Example */,
+				47F3F4041D7DEDC1EE68CBC60CB635A2 /* Pods-AZRoter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61C9164C1BA6530BD3550B2AE5B29280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628D2E0881DC1DFA5651642A65B438AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E219E4C14EE6D640EA2EF4737FC60C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846F97F69623F69A6E97DA4BA8697FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD22C3B366F5B660B4C32784D7E8C3B4 /* AZRoter-dummy.m in Sources */,
+				293553D6EC0F6EDB6ABC207373CF9A7E /* UIApplication+AZRouter.m in Sources */,
+				845ABEB44FCEC8275B8E058D0ECA3976 /* UIViewController+AZRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FE5CFF3F4FE1C207277297AD1AEAE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32624D1B945E92D24CAED37BA07648A /* Pods-AZRoter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AEE02A8112A7A7175EC72AF8E20274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E472F576B17779CB84640C2A5DB7AF /* Pods-AZRoter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43B00BDE8AE4BA78AD5D213B5B5A095B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AZRoter;
+			target = B90DB99408C45EC8A8389CACF02964F0 /* AZRoter */;
+			targetProxy = 05DAEB56D05E77890B040F0E3751F18B /* PBXContainerItemProxy */;
+		};
+		952E7529A820A1E51B60AC61B985A48E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AZRoter_Example";
+			target = 2EFE12198CD39FD1A28CAF9C9D61A6E6 /* Pods-AZRoter_Example */;
+			targetProxy = 29B5AB6FBCE4D34DD6B21A71C850094E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E5AC059815327126826DE7DFA4BED0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6BD4B849C10DF567FEEE87D1CE497D /* Pods-AZRoter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZRoter_Tests/Pods-AZRoter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZRoter_Tests/Pods-AZRoter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AD23FE0C8EC3A962A5A153DF95500E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045A134A78ECD397621DA066BF5A4D01 /* Pods-AZRoter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZRoter_Tests/Pods-AZRoter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZRoter_Tests/Pods-AZRoter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C095D3C768A6CFD4D5D5B367BFBD2F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391B45015580DE1F860D08DEB9BAC700 /* AZRoter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZRoter/AZRoter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZRoter/AZRoter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZRoter/AZRoter.modulemap";
+				PRODUCT_MODULE_NAME = AZRoter;
+				PRODUCT_NAME = AZRoter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAE97BF453E7A860D04D58EDC3634210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FAC4039D4276741262275BDA42A6A2D /* Pods-AZRoter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZRoter_Example/Pods-AZRoter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZRoter_Example/Pods-AZRoter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDC280EE6DF0EC53E9ABE9EAD7F2F247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBA775551714AA7F5972EF57C181022 /* AZRoter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZRoter/AZRoter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZRoter/AZRoter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZRoter/AZRoter.modulemap";
+				PRODUCT_MODULE_NAME = AZRoter;
+				PRODUCT_NAME = AZRoter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEC6FF1E4F9FDA1290DFDEFEDE45E1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469C6211B6F99DE8C52A53EA908BACFC /* Pods-AZRoter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZRoter_Example/Pods-AZRoter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZRoter_Example/Pods-AZRoter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FCF475A80978E7E4609A3E45A9B72C /* Build configuration list for PBXNativeTarget "Pods-AZRoter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5AC059815327126826DE7DFA4BED0F /* Debug */,
+				2AD23FE0C8EC3A962A5A153DF95500E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB386116E83C998A3E3FF8A16A151EDB /* Build configuration list for PBXNativeTarget "AZRoter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C095D3C768A6CFD4D5D5B367BFBD2F95 /* Debug */,
+				DDC280EE6DF0EC53E9ABE9EAD7F2F247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6C4F9A9BFCED52AE93E93B9F0DF9A7 /* Build configuration list for PBXNativeTarget "Pods-AZRoter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE97BF453E7A860D04D58EDC3634210 /* Debug */,
+				FEC6FF1E4F9FDA1290DFDEFEDE45E1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
